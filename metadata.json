@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Remix: PV India Fleet Solutions",
+  "description": "Professional Zomato Fleet Operations and Delivery Partner Management system for Delhi NCR.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

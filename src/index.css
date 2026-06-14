@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@media print {
+  /* Hide every single element in the window by default */
+  body * {
+    visibility: hidden;
+  }
+  
+  /* Force display only the designated salary slip print container */
+  #salary-slip-print, #salary-slip-print * {
+    visibility: visible;
+  }
+  
+  /* Reset the position of the printable element to occupy top-left corner completely with some high-quality margin */
+  #salary-slip-print {
+    position: absolute;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    border: none !important;
+    padding: 8mm !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+  }
+  
+  /* Force show colors/backgrounds on physical paper sheets */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

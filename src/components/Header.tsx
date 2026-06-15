@@ -36,12 +36,11 @@ export default function Header({ config, activeTab, setActiveTab, isAdminLoggedI
           className="flex cursor-pointer items-center space-x-3" 
           onClick={() => handleNav('home')}
         >
-          <div className="flex h-11 w-11 items-center justify-center rounded-full overflow-hidden shadow-lg shadow-orange-500/20 border border-white/10 bg-slate-900 shrink-0">
+          <div className="flex h-16 w-16 items-center justify-center">
             <img 
               src="/src/assets/images/pv_india_logo_new_1781437119730.jpg" 
               alt="PV India LOGO" 
-              className="h-full w-full object-cover" 
-              referrerPolicy="no-referrer"
+              className="h-full w-full object-contain"          referrerPolicy="no-referrer"
             />
           </div>
           <div>

@@ -38,7 +38,7 @@ export default function Header({ config, activeTab, setActiveTab, isAdminLoggedI
         >
           <div className="flex h-16 w-16 items-center justify-center">
             <img 
-              src="/src/assets/images/pv_india_logo_new_1781437119730.jpg" 
+              src="/assets/images/pv_india_logo_new_178143.png"
               alt="PV India LOGO" 
               className="h-full w-full object-contain"          referrerPolicy="no-referrer"
             />
